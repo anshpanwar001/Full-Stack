@@ -4,88 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Seeker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
+
+    <header id="header">
         <h1>Job Seeker</h1>
-        <p>Place to find your dream job</p>
-        <img src="#" alt="logo">
+        <p>Your place to find the perfect job</p>
+        <img src="/image.png" alt="Website Logo" id="logo">
     </header>
+
     <hr>
-    <nav>
+
+    <nav id="navbar">
         <a href="#">Home</a>
         <a href="#">About</a>
-        <label for="searchbar"></label>
-        <input type="search" id="searchbar" placeholder="Search for jobs">
-        <a href="#">Login/Signup</a>
-        <select name="dropdown" id="dropdown">
-            <option value="#">For employees</option>
-            <option value="#">For employers</option>
+
+        <input type="search" id="main-search" placeholder="Search for jobs">
+
+        <a href="#" id="login-link">Login / Signup</a>
+
+        <select id="user-type">
+            <option value="#">For Employees</option>
+            <option value="#">For Employers</option>
         </select>
     </nav>
+
     <hr>
-    <section>
-    <h2>Find Your Next Opportunity</h2>
-    <p>Search from thousands of jobs and freelance gigs</p>
 
-    <input type="search" placeholder="Job title, skills or company">
-    <input type="search" placeholder="Location">
+    <section id="hero">
+        <h2>Find Your Next Opportunity</h2>
+        <p>Explore thousands of jobs and freelance gigs</p>
 
-    <button>Search</button>
+        <input type="search" id="job-search" placeholder="Job title, skills or company">
+        <input type="search" id="location-search" placeholder="Location">
 
-    <div>
-        <p>Popular Categories:</p>
-        <a href="#">IT</a>
-        <a href="#">Marketing</a>
-        <a href="#">Design</a>
-        <a href="#">Freelancing</a>
-    </div>
-</section>
-    <section>
+        <button id="search-btn">Search</button>
+
+        <div id="categories">
+            <p>Popular Categories:</p>
+            <a href="#">IT</a>
+            <a href="#">Marketing</a>
+            <a href="#">Design</a>
+            <a href="#">Freelancing</a>
+        </div>
+    </section>
+
+    <section id="featured-jobs">
         <h2>Featured Jobs</h2>
-        <br>
-        <article>
+
+        <article class="job-card">
             <h3>Full Stack Developer</h3>
             <h4>Google</h4>
-            <p>Full time | 20000 per month | remote</p>
+            <p>Full time | ₹20,000/month | Remote</p>
             <button>Apply</button>
         </article>
-        <br>
-        <article>
+
+        <article class="job-card">
             <h3>Software Engineer</h3>
             <h4>Microsoft</h4>
-            <p>Part time | 18000 per month | remote</p>
+            <p>Part time | ₹18,000/month | Remote</p>
             <button>Apply</button>
         </article>
-        <br>
-        <article>
+
+        <article class="job-card">
             <h3>ML Engineer</h3>
             <h4>OpenAI</h4>
-            <p>Full time | 50000 per month | Bangalore</p>
+            <p>Full time | ₹50,000/month | Bangalore</p>
             <button>Apply</button>
         </article>
     </section>
+
     <hr>
-    <section>
-    <h2>Top Freelance Gigs</h2>
 
-    <article>
-        <h3>Logo Design</h3>
-        <p>₹3000 · Delivery in 2 days</p>
-        <button>View Gig</button>
-    </article>
+    <section id="freelance">
+        <h2>Top Freelance Gigs</h2>
 
-    <article>
-        <h3>Website Development</h3>
-        <p>₹15000 · Delivery in 1 week</p>
-        <button>View Gig</button>
-    </article>
-</section>
-<br>
+        <article class="gig-card">
+            <h3>Logo Design</h3>
+            <p>₹3000 · Delivery in 2 days</p>
+            <button>View Gig</button>
+        </article>
 
-    <footer>
-        <h5>&copy;All right reserved</h5>
-        <h5>Address : Chandigarh</h5>
+        <article class="gig-card">
+            <h3>Website Development</h3>
+            <p>₹15,000 · Delivery in 1 week</p>
+            <button>View Gig</button>
+        </article>
+    </section>
+
+    <footer id="footer">
+        <h5>© All rights reserved</h5>
+        <h5>Address: Chandigarh</h5>
     </footer>
+
 </body>
 </html>

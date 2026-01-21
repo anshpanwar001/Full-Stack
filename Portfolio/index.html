@@ -5,38 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="/Portfolio/Scripts/Style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-<header>
-    <h1>Ansh Panwar</h1>
-    <p>Full Stack Developer | Machine learning Engineer | Agentic AI developer</p>
-    <img src="/Portfolio/Images/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_14867886.png" height="100px" width="100px" alt="My image">
+<header id="main-header">
+    <h1 id="profile-name">Ansh Panwar</h1>
+    <p class="profile-tagline">Full Stack Developer | Machine Learning Engineer | Agentic AI Developer</p>
+    <img id="profile-image" src="/IMG_7593.HEIC" height="100px" width="100px" alt="My image">
 </header>
 <hr>
-<nav>
+<nav id="navigation-bar">
     <a href="https://leetcode.com/u/ansh_panwar_251105/">Leetcode</a>
     <a href="https://github.com/anshpanwar001/">Github</a>
     <a href="#">Linkdin</a>
 </nav>
 <hr>
 
-<section class="Projects">
+<section class="Projects" id="projects-section">
     <h2>Projects</h2>
-    <article>
+    <article class="project-card">
     <h2>AI-based form filling web application    <a href="https://github.com/anshpanwar001/">GitHub link</a></h2>
     <p>In this project I have used concept of Machine learning and agentic AI which takes input data from the user and fills
     the form on behalf of user</p>
     </article>
 
-    <article>
+    <article class="project-card">
     <h2>Portfolio applications using Full stack   <a href="https://github.com/anshpanwar001/Full-Stack.git">GitHub Link</a></h2>
     <p>Used HTML , CSS , JS , ReactJS with springboot framework to build interactive portfolio</p>
     </article>
 </section>
 <hr>
-<section class="Skills">
+<section class="Skills" id="skills-section">
     <h4>Skills</h4>
     <ul>
         <li>Proficient Communication Skills</li>
@@ -46,7 +46,7 @@
     </ul>
 </section>
 <hr>
-<section class="Education">
+<section class="Education" id="education-section">
     <h2>Education</h2>
     <table border="2">
         <thead>
@@ -86,9 +86,9 @@
 </section>
 <hr>
 
-<section>
+<section id="contact-form-section">
     <h4>Form</h4>
-    <form action="GET">
+    <form id="contact-form" action="GET">
         <label for="name">Enter your Name</label><br>
         <input type="text" id="name" name="username" required/> <br>
         <label for="em">Email</label><br>
@@ -110,7 +110,7 @@
 </section>
 <hr>
 
-<footer>
+<footer id="site-footer">
  &copy; All rights reserved <br>
  Address : Chandigarh University
 </footer>

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efd6ac;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #04151f;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#main-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #432534;
+    color: #efd6ac;
+}
+
+#profile-name {
+    font-size: 2rem;
+}
+
+#profile-tagline {
+    font-size: 1rem;
+}
+
+#profile-image {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+    border: 2px solid black;
+}
+
+#navigation-bar {
+    background-color: #183a37;
+    text-align: center;
+    padding: 10px;
+}
+
+#navigation-bar a {
+    color: #efd6ac;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#navigation-bar a:hover {
+    color: #c44900;
+}
+
+
+section {
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #04151f;
+    color: #efd6ac;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #c44900;
+}
+
+#skills-section ul {
+    margin-left: 20px;
+}
+
+#education-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#education-section th,
+#education-section td {
+    border: 2px solid #432534;
+    padding: 8px;
+}
+
+#contact-form-section input,
+#contact-form-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #183a37;
+}
+
+#contact-form-section button {
+    background-color: #c44900;
+    color: #efd6ac;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#site-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #432534;
+    color: #efd6ac;
+}

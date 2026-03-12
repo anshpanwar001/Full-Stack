@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Manager</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,body{
+            background-color: #222;
+            color: white;
+            height: 100vh;
+            width: 100%;
+        }
+        .parent-container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-card{
+            height: auto;
+            width: auto;
+            border: 2px solid white;
+            margin: 15px;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        #taskInput{
+            padding: 8px;
+            margin: 4px;
+            border-radius: 8px;
+            outline: none;
+            border: 2px solid black;
+        }
+
+        select{
+            padding: 8px;
+            margin: 4px;
+            outline: none;
+        }
+
+        #addTaskBtn{
+            padding: 8px;
+            margin: 4px;
+            background-color: burlywood;
+            width: 80px;
+            border-radius: 8px;
+        }
+        .deleteBtn{
+            background-color: red;
+            color: white;
+            padding: 8px;
+            margin: 8px;
+            border-radius: 8px;
+        }
+        #taskList{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="parent-container">
+        <div class="main-card">
+            <div> <h1>Student Task Manager</h1></div>
+            <input type="text" id="taskInput" placeholder="Add task here">
+            <select id="dropdownPriority">
+                <option value="null">Select Priority</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+
+            <select id="filterDisplay">
+
+                <option value="Show All">Show All</option>
+                <option value="Completed">Completed</option>
+                <option value="Pending">Pending</option>
+            </select>
+            <button id="addTaskBtn">Add</button>
+            <div id="taskList">
+            <ul id="list">
+                
+            </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

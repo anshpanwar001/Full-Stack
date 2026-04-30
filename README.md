@@ -4,4 +4,4 @@ Subject Name :- Full Stack Development
 <br>
 Common Project :- Job Portal
 <br>
-Choosen Porject :- AI based form filling system
+Choosen Project :- AI based form filling system
